@@ -1,0 +1,239 @@
+.container {
+   margin: 0px;
+   width: 1200px;
+   padding: 0;
+
+
+}
+
+@font-face {
+   font-family: "be-Ukraine Regular";
+   src: url("https://db.onlinewebfonts.com/t/a44207bfe4040f536c824dbbf82f5ed1.eot");
+   src: url("https://db.onlinewebfonts.com/t/a44207bfe4040f536c824dbbf82f5ed1.eot?#iefix")format("embedded-opentype"),
+      url("https://db.onlinewebfonts.com/t/a44207bfe4040f536c824dbbf82f5ed1.woff2")format("woff2"),
+      url("https://db.onlinewebfonts.com/t/a44207bfe4040f536c824dbbf82f5ed1.woff")format("woff"),
+      url("https://db.onlinewebfonts.com/t/a44207bfe4040f536c824dbbf82f5ed1.ttf")format("truetype"),
+      url("https://db.onlinewebfonts.com/t/a44207bfe4040f536c824dbbf82f5ed1.svg#e-Ukraine Regular")format("svg");
+}
+
+body {
+   margin: 0;
+   padding: 0;
+}
+
+.header {
+   background: #e3f0f9;
+   height: 100vh;
+
+}
+
+.header-line {
+   padding-top: 70px;
+}
+
+.background-img {
+   width: 1200px;
+}
+
+.header-top {
+   text-align: center;
+   color: #000;
+   position: absolute;
+   right: 450px;
+   font-family: "be-Ukraine Regular";
+   font-weight: 400;
+   font-size: 28px;
+   line-height: 32px;
+   color: #000;
+}
+
+
+
+
+
+.header-logo {
+   margin: 35px 650px;
+}
+
+.nav-item {
+   color: black;
+   text-decoration: none;
+   font-size: 18px;
+   margin: 25px 25px;
+   align-items: center;
+   text-align: center;
+   position: absolute;
+   font-family: "be-Ukraine Regular";
+
+}
+
+.nav-item1 {
+   text-decoration: none;
+   position: absolute;
+   padding: 5px;
+   left: 50px;
+   top: 75px;
+   font-family: "be-Ukraine Regular";
+   font-weight: 400;
+   font-size: 13px;
+   color: #000;
+   width: 120px;
+   height: 16px;
+}
+
+.nav-item2 {
+   text-decoration: none;
+   position: absolute;
+   left: 190px;
+   top: 80px;
+   font-family: "be-Ukraine Regular";
+   font-weight: 400;
+   font-size: 13px;
+   color: #000;
+   width: 225px;
+   height: 16px;
+}
+
+.nav-item3 {
+   text-decoration: none;
+   position: absolute;
+   left: 420px;
+   top: 80px;
+   font-family: "be-Ukraine Regular";
+   font-weight: 400;
+   font-size: 13px;
+   color: #000;
+   width: 68px;
+   height: 16px;
+}
+
+.nav-item4 {
+   text-decoration: none;
+   position: absolute;
+   left: 500px;
+   top: 80px;
+   font-family: "be-Ukraine Regular";
+   font-weight: 400;
+   font-size: 13px;
+   color: #000;
+   width: 39px;
+   height: 16px;
+
+}
+
+
+
+
+.nav-item {
+   text-decoration: none;
+   position: absolute;
+   right: 200px;
+   top: 50px;
+   font-family: "be-Ukraine Regular";
+   font-weight: 400;
+   font-size: 13px;
+   color: #000;
+}
+
+.nav-button {
+   text-decoration: none;
+   position: absolute;
+   right: 100px;
+   background-color: #000;
+   border: 2px black;
+   border-radius: 60px;
+   padding: 10px;
+   width: 80px;
+   text-align: center;
+   top: 63px;
+   font-family: "be-Ukraine Regular";
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   text-align: center;
+   color: #fff;
+}
+
+.mid {
+   position: absolute;
+   top: 250px;
+   right: 380px;
+   font-family: "be-Ukraine Regular";
+   font-weight: 400;
+   font-size: 48px;
+   line-height: 54px;
+   letter-spacing: 1px;
+   text-align: center;
+   color: #000;
+}
+
+.search-form {
+   border: 1px solid rgb(255, 255, 255);
+   display: inline-flex;
+   margin: 140px 550px;
+   padding: 0 20px;
+   justify-content: space-between;
+   align-items: center;
+   height: 50px;
+   border-radius: 20px;
+   overflow: hidden;
+   background-color: #ffffff;
+
+
+}
+
+.search-form__txt {
+   border: none;
+   width: 350px;
+   outline: none;
+   font-size: 20px;
+   padding-right: 10px;
+   background-color: transparent;
+}
+
+.search-form__btn {
+   border: none;
+   background-color: transparent;
+}
+
+.search-form__image {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: white;
+   height: 30px;
+   width: 30px;
+   cursor: pointer;
+
+}
+
+.footer-text {
+   position: absolute;
+   right: 720px;
+   bottom: 150px;
+   text-decoration: none;
+   color: #000;
+   font-style: normal;
+   font-family: "be-Ukraine Regular";
+
+}
+
+.end {
+   text-decoration: line;
+   color: #000;
+
+}
+
+.footer-end {
+   position: absolute;
+   font-style: normal;
+   right: 500px;
+   bottom: 100px;
+   font-family: "be-Ukraine Regular";
+   font-weight: 500;
+   font-size: 32px;
+   line-height: 18px;
+   letter-spacing: 1px;
+   text-align: center;
+   color: #000;
+}
