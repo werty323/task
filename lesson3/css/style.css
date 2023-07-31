@@ -1,0 +1,21 @@
+.header {
+   color: chartreuse;
+}
+
+.text~p {
+   color: rgb(255, 0, 43);
+}
+
+.link,
+.link1 {
+   text-decoration: none;
+   color: rgb(0, 153, 255);
+}
+
+#block {
+   color: rgb(0, 0, 255);
+}
+
+#block+.next__text {
+   color: cornflowerblue;
+}
