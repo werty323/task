@@ -140,7 +140,7 @@ div.divtext {
    color: darkred;
 }
 
-/* Обращение к первому уровню вложености тега <p> с классом section */
+/* Cелектор который выбирает все теги <p> первого уровня в теге DIV с классом section */
 .section>p {
    color: chartreuse;
 }
