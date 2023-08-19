@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-   padding-left: 20px;
+   padding: 20px 10px;
 }
 
 p {
@@ -30,18 +30,18 @@ p {
 }
 
 
-img {
+.img1 {
    width: 810px;
    height: 360px;
    margin-bottom: 60px;
 }
 
-ul li {
+.list {
    font-weight: 400;
    color: #424551;
    font-size: 16px;
    line-height: 160%;
-   padding: 20px;
+   margin: 20px;
 }
 
 .text {

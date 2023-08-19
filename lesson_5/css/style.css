@@ -15,21 +15,23 @@ body {
    font-size: 20px;
 }
 
-h2 {
+.title {
    font-size: 36px;
    margin-right: auto;
    margin-left: auto;
+   margin-bottom: 30px;
    width: 500px;
 }
 
-h3 {
+.title2 {
    font-size: 32px;
    margin-right: auto;
    margin-left: auto;
+   margin-bottom: 30px;
    width: 500px;
 }
 
-p {
+.text {
    font-weight: 300;
 }
 
@@ -42,8 +44,7 @@ img {
 .header {
    font-size: 42px;
    max-width: 200px;
-   height: 150px;
-   margin: 0 auto;
+   margin: 30px auto;
    font-weight: 500;
 }
 
