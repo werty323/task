@@ -7,11 +7,16 @@ body {
    font-size: 20px;
    font-weight: 700;
    width: 810px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.container {
+   padding-left: 20px;
 }
 
 p {
    line-height: 150%;
-   padding: 10px;
 }
 
 .header {
@@ -21,14 +26,14 @@ p {
    font-weight: 900;
    line-height: 130%;
    width: 810px;
-   padding: 10px 0 94px 20px;
+   margin-bottom: 92px;
 }
 
 
 img {
    width: 810px;
    height: 360px;
-   padding: 0 0 60px 20px;
+   margin-bottom: 60px;
 }
 
 ul li {
@@ -36,7 +41,7 @@ ul li {
    color: #424551;
    font-size: 16px;
    line-height: 160%;
-   padding: 0 0 4px 45px;
+   padding: 20px;
 }
 
 .text {
@@ -44,18 +49,20 @@ ul li {
    color: #424551;
    font-size: 16px;
    line-height: 160%;
-   padding: 0 0px 48px 20px;
+   width: 810px;
+   margin-bottom: 48px;
 }
 
 .text1 {
    width: 752px;
-   height: auto;
    line-height: 150%;
-   padding: 0px 0px 48px 40px;
+   width: 752px;
+   margin-bottom: 48px;
 }
 
 .paragraph {
-   padding: 0 0 24px 20px;
+   width: 810px;
+   margin-bottom: 24px;
 }
 
 .text2 {
@@ -63,7 +70,8 @@ ul li {
    color: #424551;
    font-size: 16px;
    line-height: 160%;
-   padding: 0 0 24px 20px;
+   width: 810px;
+   margin-bottom: 24px;
 }
 
 .text3 {
@@ -71,5 +79,9 @@ ul li {
    color: #424551;
    font-size: 16px;
    line-height: 160%;
-   padding: 24px 0 0px 20px;
+   width: 810px;
+}
+
+.list {
+   margin-bottom: 24px;
 }

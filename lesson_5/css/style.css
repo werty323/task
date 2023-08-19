@@ -5,6 +5,10 @@
    box-sizing: border-box;
 }
 
+.container {
+   padding-left: 20px;
+}
+
 body {
    font-family: Ubuntu, serif;
    font-style: normal;
@@ -13,16 +17,19 @@ body {
 
 h2 {
    font-size: 36px;
-   padding: 10px 850px
+   margin-right: auto;
+   margin-left: auto;
+   width: 500px;
 }
 
 h3 {
    font-size: 32px;
-   padding: 10px 850px
+   margin-right: auto;
+   margin-left: auto;
+   width: 500px;
 }
 
 p {
-   padding: 20px;
    font-weight: 300;
 }
 
@@ -48,9 +55,4 @@ img {
 .wrapper {
    overflow: hidden;
    max-height: 100%;
-}
-
-.link1 {
-   display: inline-block;
-   margin: 0 0 300px 0;
 }
