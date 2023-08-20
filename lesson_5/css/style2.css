@@ -41,7 +41,7 @@ p {
    color: #424551;
    font-size: 16px;
    line-height: 160%;
-   margin: 20px;
+   margin: 0 20px 20px 24px;
 }
 
 .text {
@@ -80,8 +80,4 @@ p {
    font-size: 16px;
    line-height: 160%;
    width: 810px;
-}
-
-.list {
-   margin-bottom: 24px;
 }
