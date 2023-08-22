@@ -1,0 +1,49 @@
+@import url(null.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,regular,700,900);
+
+body {
+   font-family: lato;
+   font-size: 24px;
+   font-weight: 500;
+   color: rgb(56, 56, 56);
+}
+
+.header {
+   margin-top: 100px;
+   text-align: center;
+   margin-bottom: 300px;
+}
+
+.title {
+   color: rgb(33, 33, 33);
+   font-size: 44px;
+   font-weight: 900;
+   margin-bottom: 40px;
+}
+
+.title2 {
+   color: rgb(46, 46, 46);
+   font-size: 38px;
+   font-weight: 700;
+   margin-bottom: 80px;
+
+}
+
+.container {
+   padding-left: 200px;
+}
+
+.text {
+   width: 800px;
+   margin-bottom: 70px;
+}
+
+.text2 {
+   color: rgb(35, 35, 35);
+   margin-bottom: 20px;
+   font-weight: 700;
+}
+
+.text3 {
+   color: rgb(167, 167, 167);
+}

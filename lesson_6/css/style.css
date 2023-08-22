@@ -1,0 +1,47 @@
+@import url(null.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,300italic,regular,italic,500,500italic,700,900);
+
+body {
+   font-size: 20px;
+   font-family: Roboto;
+   font-weight: 300;
+   margin-left: auto;
+   margin-right: auto;
+   width: 1700px;
+}
+
+
+.header1 {
+   font-size: 36px;
+   text-align: center;
+   border: 3px solid black;
+   margin-top: 10px;
+   margin-bottom: 50px;
+   border-radius: 30px;
+   box-shadow: inset 0px 0px 10px 0px black;
+
+}
+
+.link {
+   color: rgb(96, 96, 252);
+   font-style: italic;
+   font-size: 22px;
+   font-weight: 500;
+   opacity: 0.7;
+}
+
+.image {
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+   overflow: hidden;
+}
+
+.text {
+   margin-bottom: 20px;
+}
+
+.paragraph {
+   color: cornflowerblue;
+   outline: solid 10px;
+}
