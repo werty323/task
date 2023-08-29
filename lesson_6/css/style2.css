@@ -2,7 +2,7 @@
 
 @font-face {
    font-family: 'Circular Std';
-   src: url('/fonts/CircularStd-Medium.woff2') format("woff2"), url('//fonts/CircularStd-Medium.woff') format('woff');
+   src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format('woff');
    font-weight: 400;
    font-style: normal;
    font-display: swap;
@@ -10,7 +10,7 @@
 
 @font-face {
    font-family: 'Circular Std';
-   src: url('//fonts/CircularStd-Book.woff2') format('woff2'), url('/fonts/CircularStd-Book.woff') format('woff');
+   src: url("../fonts/CircularStd-Bold.woff2") format('woff2'), url("../fonts/CircularStd-Bold.woff") format('woff');
    font-weight: 700;
    font-style: normal;
    font-display: swap;
@@ -20,7 +20,7 @@ body {
    color: #5F5F5F;
    font-family: 'Circular Std';
    font-size: 18px;
-   font-weight: 700;
+   font-weight: 400;
 }
 
 .header {
