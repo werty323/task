@@ -1,0 +1,86 @@
+@import url(null.css);
+
+@font-face {
+   font-family: 'Circular Std';
+   src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format('woff');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Circular Std';
+   src: url("../fonts/CircularStd-Bold.woff2") format('woff2'), url("../fonts/CircularStd-Bold.woff") format('woff');
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+body {
+   color: #5F5F5F;
+   font-family: 'Circular Std';
+   font-size: 18px;
+   font-weight: 400;
+}
+
+.header {
+   margin-top: 100px;
+   text-align: center;
+   margin-bottom: 224px;
+}
+
+.title {
+   color: rgb(33, 33, 33);
+   font-size: 65px;
+   font-weight: 700;
+   margin-bottom: 20px;
+}
+
+.text_top {
+   font-size: 20px;
+   color: #5F5F5F;
+}
+
+.title2 {
+   color: #313131;
+   font-size: 34px;
+   font-weight: 700;
+   margin: 0 auto;
+   margin-bottom: 20px;
+   opacity: 0.88;
+   width: 239px;
+
+}
+
+.container {
+   padding: 20px 40px 100px 30px;
+
+}
+
+.text {
+   width: 508px;
+   margin-bottom: 125px;
+   margin: 0 auto;
+}
+
+.text2 {
+   color: rgb(35, 35, 35);
+   margin-bottom: 20px;
+   font-weight: 700;
+}
+
+.text3 {
+   color: #B8B8B8;
+   margin-bottom: 40px;
+}
+
+.footer {
+   width: 152px;
+   margin: 0 auto;
+}
+
+.img {
+   height: 674px;
+   width: 401px;
+   margin-bottom: 40px;
+}
