@@ -1,0 +1,83 @@
+@import url(null.css);
+
+@font-face {
+   font-family: "e-Ukraine";
+   src: url(../fonts/e-ukrainehead-thin_w.woff2) format("woff2"), url(../fonts/e-ukrainehead-thin_w.woff) format("woff");
+   font-weight: 300;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "e-Ukraineregular";
+   src: url(../fonts/e-ukraine-regular_w.woff2) format("woff2"), url(../fonts/e-ukraine-regular_w.woff) format("woff");
+   font-weight: 500;
+   font-style: normal;
+}
+
+body {
+   font-family: "e-Ukraine", serif;
+}
+
+.container {
+   padding: 50px 100px;
+   background-color: rgb(200, 230, 255);
+   height: 100%;
+}
+
+.text {
+   font-size: 24px;
+   padding: 10px;
+}
+
+.text2 {
+   font-size: 24px;
+   padding: 10px;
+   background-image: url(../img/unnamed.png);
+   height: 400px;
+   background-repeat: no-repeat;
+   color: rgb(251, 0, 255);
+   background-attachment: fixed;
+   background-position: 200px 0;
+   margin-bottom: 30px;
+}
+
+.text3 {
+   font-size: 24px;
+   padding: 10px;
+   background: url(../img/завантаження.jfif) 0 0/100% 100% no-repeat;
+   color: rgb(119, 83, 159);
+}
+
+.title {
+   font-size: 40px;
+   text-align: center;
+   height: 230px;
+   color: rgb(255, 242, 208);
+   background: url(../img/Soccerball.jpg) 100px no-repeat;
+   background-position: 200px 0px;
+   font-family: e-Ukraineregular,
+      serif;
+}
+
+.title2 {
+   font-size: 35px;
+   color: rgb(212, 255, 170);
+   font-family: e-Ukraineregular,
+      serif;
+   font-weight: 500;
+}
+
+.link {
+   font-size: 26px;
+   color: blue;
+   text-decoration: underline;
+
+}
+
+.list-item {
+   font-size: 22px;
+   list-style-type: disc;
+   color: gray;
+   background: rgb(58, 180, 174);
+   background: linear-gradient(90deg, rgba(58, 180, 174, 1) 0%, rgba(29, 214, 253, 1) 50%, rgba(69, 116, 252, 1) 100%);
+}

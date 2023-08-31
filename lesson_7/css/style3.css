@@ -1,0 +1,53 @@
+@import url(null.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,regular,700,900);
+
+body {
+   font-family: "Lato", serif;
+   margin-left: auto;
+   margin-right: auto;
+   width: 500px;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 160%
+}
+
+.container {
+   padding: 100px 0 0 0;
+}
+
+.title {
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 24px;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   color: #1E212C;
+}
+
+.title2 {
+   font-size: 46px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: 130%;
+   color: #1E212C;
+   margin-bottom: 40px;
+}
+
+.list-item {
+   width: 358px;
+   background: url(../img/Vector.png) 0 5px no-repeat;
+   padding: 0 0 0 20px;
+}
+
+.list {
+   margin-bottom: 48px;
+}
+
+.button {
+   border-radius: 4px;
+   background: var(--btn-gradient, linear-gradient(56deg, #FF3F3A 0%, #F75E05 100%));
+   padding: 10px 25px;
+   color: aliceblue;
+}
