@@ -1,0 +1,140 @@
+@import url(null.css);
+
+@font-face {
+   font-family: "lato";
+   src: url(../fonts/Lato-Regular.woff2) format("woff2"), url(../fonts/Lato-Regular.woff) format("woff");
+   font-weight: 500;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "lato-bold";
+   src: url(../fonts/Lato-Bold.woff2) format("woff2"), url(../fonts/Lato-Bold.woff) format("woff");
+   font-weight: 700;
+   font-style: normal;
+}
+
+
+body {
+   font-family: Lato;
+   color: #1E212C;
+   font-size: 20px;
+   font-weight: 700;
+   width: 810px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.container {
+   padding: 20px 10px;
+}
+
+p {
+   line-height: 150%;
+}
+
+.header {
+   font-family: Lato-bold;
+   font-size: 46px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: 130%;
+   width: 810px;
+   margin-bottom: 60px;
+}
+
+
+.image {
+   width: 810px;
+   height: 360px;
+   margin-bottom: 60px;
+}
+
+.list-item {
+   font-weight: 400;
+   color: #424551;
+   font-size: 16px;
+   line-height: 160%;
+   margin: 0 20px 20px 24px;
+   background: url(../img/Vector.png) left no-repeat;
+   padding: 0px 0 0 25px;
+
+}
+
+.text {
+   font-weight: 400;
+   color: #424551;
+   font-size: 16px;
+   line-height: 160%;
+   width: 810px;
+   margin-bottom: 48px;
+}
+
+.blockquote {
+   width: 752px;
+   line-height: 150%;
+   width: 752px;
+   margin-bottom: 48px;
+   background: url(../img/braces.png) no-repeat;
+   padding: 0px 0 0 50px;
+}
+
+.paragraph {
+   width: 810px;
+   margin-bottom: 24px;
+}
+
+.text2 {
+   font-weight: 400;
+   color: #424551;
+   font-size: 16px;
+   line-height: 160%;
+   width: 810px;
+   margin-bottom: 24px;
+}
+
+.text3 {
+   font-weight: 400;
+   color: #424551;
+   font-size: 16px;
+   line-height: 160%;
+   width: 810px;
+}
+
+.text-top2 {
+   display: inline-block;
+   font-weight: 400;
+   color: #424551;
+   font-size: 16px;
+   padding: 0px 40px 0px 22px;
+   background: url(../img/Calendar.png) left no-repeat;
+   background-position: 0px 5px;
+   margin-right: 0px;
+}
+
+.text-top {
+   display: inline-block;
+   font-weight: 400;
+   color: #424551;
+   font-size: 16px;
+   background: url(../img/Union.png) left no-repeat;
+   padding: 0 340px 0 20px;
+   background-position: 0px 5px;
+}
+
+.text-top3 {
+   display: inline-block;
+   font-family: Lato-bold;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 700;
+   padding-right: 12px;
+}
+
+.top-link {
+   padding-right: 12px;
+}
+
+.article-details {
+   padding-bottom: 55px;
+}
