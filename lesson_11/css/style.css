@@ -1,0 +1,237 @@
+@import url(null.css);
+
+@font-face {
+   font-family: "Taviraj";
+   src: url(../fonts/Taviraj-Medium.woff2) format("woff2");
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Taviraj-semi-bold";
+   src: url(../fonts/Taviraj-SemiBold.woff2) format("woff2");
+   font-weight: 600;
+   font-style: normal;
+}
+
+.way-kambas-mini-ebony {
+   font-family: "Taviraj", arial;
+}
+
+.way-kambas-mini-ebony__container {
+   margin: 0 200px;
+   width: 1440px;
+
+}
+
+.top-line {
+   font-size: 20px;
+   position: relative;
+   top: 20px;
+   color: #333333;
+}
+
+.top-line__logo {
+   background: url(../img/Ellipse1\(1\).png);
+   background-repeat: no-repeat;
+   background-position: 5px 10px;
+   padding: 18px 0px 5px 150px;
+   display: inline-block;
+   position: relative;
+   width: 204px;
+   height: 68px;
+   top: 55px;
+   left: 112px;
+
+}
+
+
+.watches,
+.eyewear,
+.accessories,
+.news,
+.login {
+   position: relative;
+   color: black;
+}
+
+.watches {
+   position: relative;
+   left: 556px;
+}
+
+.eyewear {
+   position: relative;
+   left: 624px;
+}
+
+.accessories {
+   position: relative;
+   left: 719px;
+}
+
+.news {
+   position: relative;
+   left: 804px;
+}
+
+.login {
+   position: relative;
+   left: 1076px;
+   background: url(../img/Ellipse\3.png);
+   background-repeat: no-repeat;
+   background-position: 5px 10px;
+   padding: 8px 0px 5px 50px;
+}
+
+.top-line__circle {
+   position: relative;
+   left: 1590px;
+   top: -40px;
+}
+
+.page__content {
+   position: relative;
+   background: #E5E5E5;
+   width: 1100px;
+   height: 550px;
+   left: 400px;
+   bottom: 350px;
+   color: #333333;
+}
+
+.title {
+   font-size: 60px;
+   position: relative;
+   Top: 56px;
+   Left: 305px;
+   line-height: 80px;
+}
+
+.title::after {
+   content: "";
+   display: block;
+   height: 1px;
+   background-color: black;
+   width: 95px;
+   margin: 8px 0 0 0;
+}
+
+.text {
+   font-size: 16px;
+   line-height: 27px;
+   position: relative;
+   left: 305px;
+   top: 80px;
+}
+
+.image {
+   position: relative;
+   left: 265px;
+   top: 256px;
+   z-index: 2;
+}
+
+.discover {
+   font-family: "Taviraj-semi-bold", arial;
+   font-weight: 600;
+   font-size: 16px;
+   position: relative;
+   left: 305px;
+   top: 110px;
+}
+
+.discover::after {
+   content: "";
+   display: block;
+   height: 1px;
+   background-color: black;
+   width: 65px;
+   margin: 5px 0 0 0;
+}
+
+.button-minus {
+   position: relative;
+   left: 305px;
+   top: 219px;
+   border: 3px solid #999999;
+   border-radius: 1px;
+   text-align: center;
+   width: 31px;
+}
+
+.button-plus {
+   position: relative;
+   left: 405px;
+   top: 146px;
+   border: 3px solid #333333;
+   background: #333333;
+   border-radius: 1px;
+   text-align: center;
+   width: 31px;
+}
+
+.number {
+   position: relative;
+   left: 355px;
+   top: 182px;
+   font-size: 25px;
+   width: 24px;
+   font-weight: bold;
+}
+
+.button-add-to-card {
+   color: #FFFFFF;
+   position: relative;
+   left: 494px;
+   top: 100px;
+   font-size: 20px;
+   width: 229px;
+   height: 62px;
+   background-color: #333333;
+   background-image: url(../img/Ellipse\4.png);
+   background-repeat: no-repeat;
+   background-position: 10px 19px;
+   text-align: center;
+   display: inline-block;
+   padding: 14px 0px;
+}
+
+.button-logi-cicil {
+   color: #FFFFFF;
+   position: relative;
+   left: 504px;
+   top: 96px;
+   width: 159px;
+   height: 62px;
+   background-color: #333333;
+   text-align: center;
+   display: inline-block;
+   padding: 14px 0px;
+}
+
+.arrow-left {
+   position: relative;
+   left: 1354px;
+   bottom: 381px;
+   border: 3px solid #999999;
+   border-radius: 1px;
+   text-align: center;
+   width: 60px;
+   height: 60px;
+   padding: 13px 0;
+}
+
+.arrow-right {
+   position: relative;
+   left: 1424px;
+   bottom: 441px;
+   border: 3px solid #333333;
+   background: #333333;
+   text-align: center;
+   border-radius: 1px;
+   width: 60px;
+   height: 60px;
+   padding: 13px 0;
+
+}
