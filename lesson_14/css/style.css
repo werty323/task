@@ -41,25 +41,24 @@ a {
    display: flex;
 }
 
-.top-line__links {
+.menu {
    display: flex;
    gap: 40px;
    margin-top: 10px;
+   font-size: 19px;
 }
 
 .top-line__logo {
    margin-top: 10px;
-   padding-right: 105px;
+   padding-right: 115px;
 }
 
 .top-line__search {
    margin-top: 10px;
    padding-right: 54px;
+   padding-left: 108px;
 }
 
-.news {
-   padding-right: 88px;
-}
 
 .top-line__cart {
    display: flex;
