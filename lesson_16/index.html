@@ -9,32 +9,52 @@
 </head>
 
 <body>
-   <div class="form">
+   <form class="form">
       <div class="input-line">
          <label class="form-label" for="input_1">Full Name</label>
          <input id="input_1" autocomplete="off" required name="usernsme" placeholder="Your full name" type="text">
+         <select name="select">
+            <option value="1">A</option>
+            <option value="2">B</option>
+            <option value="3">C</option>
+         </select>
       </div>
       <div class="input-line">
          <label class="form-label" for="input_2">Email</label>
          <input id="input_2" autocomplete="off" required name="email" placeholder="Your working email" type="email">
+         <textarea class="textarea" name="text"></textarea>
       </div>
       <div class="input-line">
          <label class="form-label" for="input_3">Password</label>
          <input id="input_3" autocomplete="off" required name="pass" placeholder="Password" type="password">
-         <span class="icon"><a target="_blank" href="#"><img src="img/Eye.svg" alt=""></a></span>
+         <span class="icon"><a target="_blank" href="https://soundcloud.com/ukrmuzyka/sets/ffp6txtlkdp5"><img
+                  src="img/Eye.svg" alt=""></a></span>
+         <input class="data" type="datetime-local">
       </div>
       <div class="input-line">
          <label class="form-label" for="input_4">Confirm Password</label>
          <input id="input_4" autocomplete="off" required name="pass" placeholder="Password" type="password">
-         <span class="icon"><a target="_blank" href="#"><img src="img/Eye.svg" alt=""></a></span>
+         <span class="icon"><a target="_blank"
+               href="https://www.youtube.com/watch?v=QokENOgPI2A&ab_channel=xlabc%F0%9F%A6%8A"><img src="img/Eye.svg"
+                  alt=""></a></span>
+         <div class="radiobuttons">
+            <div class="radiobuttons__item">
+               <input class="radio" required name="gender" value="m" id="m" type="radio">
+               <label for="m">M</label>
+            </div>
+            <div class="radiobuttons__item">
+               <input class="radio" required name="gender" value="f" id="w" type="radio">
+               <label for="w">W</label>
+            </div>
+         </div>
       </div>
       <div class="checkbox-rem">
          <input class="checkbox" required name="check" id="remember-me" value="rem" type="checkbox">
          <label class="remember-me" for="remember-me">Remember me</label>
       </div>
       <button type="submit" class="button">Sign up</button>
-      <p>Already have an account? <a class="sign-in" target="_blank" href="#">Sign in</a></p>
-   </div>
+
+   </form>
 </body>
 
 </html>

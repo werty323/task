@@ -28,6 +28,19 @@ input {
    line-height: 21px;
 }
 
+.textarea {
+   width: 100%;
+   height: 120px;
+   padding: 10px;
+   resize: vertical;
+   border: 1px solid gray;
+}
+
+.radio {
+   width: 13px;
+   height: 13px;
+}
+
 .input-line {
    font-size: 14px;
    line-height: 21px;
