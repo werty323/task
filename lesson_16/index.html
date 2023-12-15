@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Lesson_16</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <form class="form">
+      <div class="input-line">
+         <label class="form-label" for="input_1">Full Name</label>
+         <input id="input_1" autocomplete="off" name="usernsme" placeholder="Your full name" type="text">
+         <label for="age">age</label>
+         <select id="age" name="select">
+            <option value="1">...</option>
+            <option value="2">16</option>
+            <option value="3">17</option>
+            <option value="4">18</option>
+            <option value="5">19</option>
+            <option value="6">20</option>
+         </select>
+      </div>
+      <div class="input-line">
+         <label class="form-label" for="input_2">Email</label>
+         <input id="input_2" autocomplete="off" required name="email" placeholder="Your working email" type="email">
+         <textarea class="textarea" name="text"></textarea>
+      </div>
+      <div class="input-line">
+         <label class="form-label" for="input_3">Password</label>
+         <input id="input_3" autocomplete="off" required name="pass" placeholder="Password" type="password">
+         <span class="icon"><a target="_blank" href="#"><img src="img/Eye.svg" alt=""></a></span>
+
+      </div>
+      <div class="input-line">
+         <label class="form-label" for="input_4">Confirm Password</label>
+         <input class="password" id="input_4" autocomplete="off" required name="pass" placeholder="Password"
+            type="password">
+         <span class="icon"><a target="_blank" href="#"><img src="img/Eye.svg" alt=""></a></span>
+
+      </div>
+      <h2 class="color">Select Color</h2>
+      <div class="radiobuttons">
+         <div class="radiobuttons__item">
+            <label class="label">
+               <input type="radio" class="radio">
+               <span class="decoration"></span>
+               <span class="text">Red</span>
+
+            </label>
+         </div>
+         <div class="radiobuttons__item">
+            <label class="label">
+               <input type="radio" class="radio">
+               <span class="decoration"></span>
+               <span class="text">Blue</span>
+            </label>
+         </div>
+
+      </div>
+      <div class="checkbox-button">
+         <input class="checkbox" required name="check" id="remember-me" value="rem" type="checkbox">
+         <label class="remember-me" for="remember-me">Remember me</label>
+      </div>
+      <button type="submit" class="button">Sign up</button>
+   </form>
+</body>
+
+</html>
