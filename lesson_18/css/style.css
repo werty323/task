@@ -1,0 +1,306 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+img {
+  vertical-align: top;
+}
+
+* {
+  font-family: "Taviraj";
+}
+
+@font-face {
+  font-family: "Taviraj";
+  src: url(../fonts/Taviraj-Regular.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Taviraj-semi-bold";
+  src: url(../fonts/Taviraj-SemiBold.woff2) format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(../fonts/Nunito-Regular.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+a {
+  color: #333333;
+}
+
+.way-kambas-mini-ebony__container {
+  width: 1110px;
+  margin: 57px auto;
+  max-height: 1200px;
+}
+.way-kambas-mini-ebony__text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Nunito";
+}
+
+.top-line {
+  display: flex;
+}
+.top-line__logo {
+  margin-top: 10px;
+  padding-right: 115px;
+}
+.top-line__search {
+  margin-top: 10px;
+  padding-right: 54px;
+  padding-left: 108px;
+}
+.top-line__cart {
+  display: flex;
+  background-color: antiquewhite;
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+  margin-top: 10px;
+  font-size: 19px;
+}
+
+.login {
+  margin-top: 10px;
+  padding-right: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+.login::before {
+  content: url(../img/user.png);
+  padding-right: 14px;
+}
+
+.page {
+  background-color: #F1DDC9;
+  width: 1110px;
+  height: 505px;
+}
+
+.title {
+  font-size: 60px;
+  margin: 140px 0px 30px 314px;
+  padding-top: 60px;
+}
+.title::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 95px;
+  background-color: black;
+  margin-left: 4px;
+}
+
+.discover {
+  margin: 50px 0px 30px 314px;
+  width: 74px;
+}
+.discover::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 60px;
+  background-color: black;
+}
+
+.button-add-to-card {
+  width: 208px;
+  height: 62px;
+  background: url(../img/add-cart.png) #D84727 no-repeat 15px 15px;
+  margin: 0 0 0 400px;
+  color: #fff;
+  text-align: center;
+  padding-top: 12px;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.button-logi-cicil {
+  display: inline-block;
+  margin: 0 0 0 50px;
+  background-color: transparent;
+  border: #D84727 2px solid;
+  width: 150px;
+  height: 62px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.arrow-left {
+  display: inline-block;
+  margin: 38px 0 0 970px;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: #D84727 2px solid;
+}
+
+.arrow-right {
+  margin-top: 38px;
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  background: #D84727;
+}
+
+.luxurious-eyewear {
+  padding: 50px 0;
+}
+.luxurious-eyewear__row {
+  display: flex;
+  margin: 0 -15px;
+}
+.luxurious-eyewear__column {
+  flex: 0 1 50%;
+  padding: 0 15px;
+}
+.luxurious-eyewear__item {
+  background: #fff;
+}
+.luxurious-eyewear__title {
+  padding: 32px 0 8px 32px;
+  font-size: 28px;
+  line-height: 32px;
+}
+.luxurious-eyewear__text {
+  padding-left: 32px;
+  padding-bottom: 6px;
+  color: #777777;
+  font-family: "Nunito";
+}
+.luxurious-eyewear__discover {
+  font-family: "Taviraj-semi-bold";
+  padding-left: 32px;
+  color: #333333;
+}
+.luxurious-eyewear__discover::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 99px;
+  background-color: black;
+}
+.luxurious-eyewear__image {
+  display: flex;
+  justify-content: end;
+}
+
+.monthly-deals {
+  padding: 50px 0;
+}
+.monthly-deals__title {
+  font-size: 38px;
+  line-height: 40px;
+  text-align: left;
+  margin: 0 0 30px 0;
+}
+.monthly-deals__title::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 104px;
+  background-color: black;
+  margin-left: 2px;
+}
+.monthly-deals__row {
+  display: flex;
+  margin: 0 -15px;
+}
+.monthly-deals__column {
+  flex: 0 1 25%;
+  padding: 0 15px;
+}
+.monthly-deals__item {
+  background: #FFFFFF;
+  padding-left: 24px;
+  width: 255px;
+  height: 491px;
+}
+.monthly-deals__image {
+  padding-bottom: 32px;
+}
+.monthly-deals__subtitle {
+  font-size: 24px;
+  line-height: 32px;
+  padding-bottom: 2px;
+}
+.monthly-deals__discount {
+  text-transform: uppercase;
+  padding-bottom: 6px;
+  color: #777777;
+}
+.monthly-deals__price-line-through {
+  -webkit-text-decoration: line-through red;
+          text-decoration: line-through red;
+  padding-bottom: 12px;
+  color: #777777;
+}
+.monthly-deals__price {
+  font-size: 24px;
+  line-height: 32px;
+  padding-bottom: 30px;
+}
+.monthly-deals__btn-love {
+  display: flex;
+  border: 1px #D84727 solid;
+  align-items: center;
+  justify-content: center;
+  width: 39px;
+  height: 39px;
+}
+.monthly-deals__btn-add-to-card {
+  width: 158px;
+  height: 39px;
+  background: #D84727;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.btn__row {
+  display: flex;
+  gap: 0px 8px;
+}/*# sourceMappingURL=style.css.map */
